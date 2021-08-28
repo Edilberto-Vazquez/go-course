@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"go-course/src/lessons"
 )
 
@@ -19,10 +18,13 @@ func main() {
 	// lessons.FmtPackage()
 
 	// functions and lambda functions
-	lessons.NormalFunction("Hola mundo")
-	lessons.TripleArgument(1, 2, "Hola")
+	// lessons.NormalFunction("Hola mundo")
+	// lessons.TripleArgument(1, 2, "Hola")
 	// var values := lessons.ReturnValue(2)
-	fmt.Println("Values:", lessons.ReturnValue(2))
-	value1, value2 := lessons.DoubleReturn(1)
-	fmt.Println("value1 y value2", value1, value2)
+	// fmt.Println("Values:", lessons.ReturnValue(2))
+	// value1, value2 := lessons.DoubleReturn(1)
+	// fmt.Println("value1 y value2", value1, value2)
+
+	// loops
+	lessons.Loops()
 }

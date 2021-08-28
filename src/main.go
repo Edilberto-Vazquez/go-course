@@ -32,5 +32,8 @@ func main() {
 	// lessons.ConditionalIf()
 
 	// switch statement
-	lessons.SwitchStatement()
+	// lessons.SwitchStatement()
+
+	// defer, break, continue
+	lessons.DeferBreakContinue()
 }

@@ -7,5 +7,6 @@ import (
 func main() {
 	// fmt.Println("Hello, World")
 	// lessons.ConstVarsZerovalues()
-	lessons.AritmeticOperators()
+	// lessons.AritmeticOperators()
+	lessons.FmtPackage()
 }

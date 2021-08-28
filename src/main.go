@@ -29,5 +29,8 @@ func main() {
 	// lessons.Loops()
 
 	// conditional if
-	lessons.ConditionalIf()
+	// lessons.ConditionalIf()
+
+	// switch statement
+	lessons.SwitchStatement()
 }

@@ -26,5 +26,8 @@ func main() {
 	// fmt.Println("value1 y value2", value1, value2)
 
 	// loops
-	lessons.Loops()
+	// lessons.Loops()
+
+	// conditional if
+	lessons.ConditionalIf()
 }

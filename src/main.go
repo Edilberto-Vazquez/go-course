@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"go-course/src/lessons"
 )
 
@@ -40,7 +41,7 @@ func main() {
 	// arrays and slices
 	// lessons.ArraySlice()
 
-	// Loop through slice
+	// Loop through sliceacces-modifiers
 	// lessons.LoopThroughSlice()
 	// lessons.IsPalindromo("Amor a roma")
 
@@ -48,5 +49,12 @@ func main() {
 	// lessons.KeyValue()
 
 	// Structs
-	lessons.Structs()
+	// lessons.Structs()
+
+	// Acces modifiers
+
+	var myCar lessons.CarPublic
+	myCar.Brand = "Ferrari"
+	myCar.Year = 2020
+	fmt.Println(myCar)
 }

@@ -41,6 +41,9 @@ func main() {
 	// lessons.ArraySlice()
 
 	// Loop through slice
-	lessons.LoopThroughSlice()
-	lessons.IsPalindromo("Amor a roma")
+	// lessons.LoopThroughSlice()
+	// lessons.IsPalindromo("Amor a roma")
+
+	// key value with maps
+	lessons.KeyValue()
 }

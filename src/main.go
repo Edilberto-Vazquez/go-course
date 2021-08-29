@@ -67,5 +67,8 @@ func main() {
 	// lessons.Channels()
 
 	// Range, Close and Select
-	lessons.RangeCloseSelect()
+	// lessons.RangeCloseSelect()
+
+	// go modules with echo framework
+	lessons.GoModules()
 }

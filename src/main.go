@@ -45,5 +45,8 @@ func main() {
 	// lessons.IsPalindromo("Amor a roma")
 
 	// key value with maps
-	lessons.KeyValue()
+	// lessons.KeyValue()
+
+	// Structs
+	lessons.Structs()
 }

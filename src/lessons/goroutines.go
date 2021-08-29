@@ -24,6 +24,6 @@ func Goroutines() {
 		fmt.Println("Adios")
 	}("Adios")
 
-	time.Sleep(time.Second * 1)
+	time.Sleep(time.Second * 1) // mala practica usar sleep
 
 }

@@ -60,5 +60,8 @@ func main() {
 	// lessons.Pointers()
 
 	// interfaces and interface list
-	lessons.InterfacesInterfacesList()
+	// lessons.InterfacesInterfacesList()
+
+	// Goroutines
+	lessons.Goroutines()
 }

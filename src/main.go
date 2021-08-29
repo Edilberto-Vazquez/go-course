@@ -35,5 +35,12 @@ func main() {
 	// lessons.SwitchStatement()
 
 	// defer, break, continue
-	lessons.DeferBreakContinue()
+	// lessons.DeferBreakContinue()
+
+	// arrays and slices
+	// lessons.ArraySlice()
+
+	// Loop through slice
+	lessons.LoopThroughSlice()
+	lessons.IsPalindromo("Amor a roma")
 }

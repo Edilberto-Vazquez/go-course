@@ -56,6 +56,9 @@ func main() {
 	// myCar.Year = 2020
 	// fmt.Println(myCar)
 
-	// Pointers
-	lessons.Pointers()
+	// Pointers and stringers
+	// lessons.Pointers()
+
+	// interfaces and interface list
+	lessons.InterfacesInterfacesList()
 }

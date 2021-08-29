@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"go-course/src/lessons"
 )
 
@@ -52,9 +51,11 @@ func main() {
 	// lessons.Structs()
 
 	// Acces modifiers
+	// var myCar lessons.CarPublic
+	// myCar.Brand = "Ferrari"
+	// myCar.Year = 2020
+	// fmt.Println(myCar)
 
-	var myCar lessons.CarPublic
-	myCar.Brand = "Ferrari"
-	myCar.Year = 2020
-	fmt.Println(myCar)
+	// Pointers
+	lessons.Pointers()
 }

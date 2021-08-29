@@ -1,8 +1,6 @@
 package main
 
-import (
-	"go-course/src/lessons"
-)
+import "go-course/src/lessons"
 
 func main() {
 	// Hello, World
@@ -66,5 +64,8 @@ func main() {
 	// lessons.Goroutines()
 
 	// Channels
-	lessons.Channels()
+	// lessons.Channels()
+
+	// Range, Close and Select
+	lessons.RangeCloseSelect()
 }
